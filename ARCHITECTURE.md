@@ -1,0 +1,2 @@
+# Architecture
+GitHub source → Docker builds → Artifact Registry → GKE Standard cluster (Terraform-managed VPC/subnet) → Helm deployments: frontend, helloService, profileService, MongoDB (development-only). Frontend LoadBalancer exposes HTTP port 80. Backend ClusterIP services expose ports 3001/3002 internally. **Frontend API routing is application-specific and must be checked before claiming end-to-end functionality.**
