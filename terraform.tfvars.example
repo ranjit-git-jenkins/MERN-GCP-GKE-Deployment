@@ -1,0 +1,5 @@
+project_id = "REPLACE_WITH_GCP_PROJECT_ID"
+region = "asia-south1"
+cluster_name = "mern-gke"
+node_count = 1
+machine_type = "e2-standard-2"
