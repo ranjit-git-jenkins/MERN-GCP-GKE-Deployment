@@ -1,0 +1,3 @@
+VLearn GCP Practice Assignment — Deploy a MERN application using Kubernetes
+Repository: https://github.com/ranjit-git-jenkins/SampleMERNwithMicroservices
+GKE-ready deployment code and documentation are provided. Actual GKE deployment and live screenshots must be added after execution.
