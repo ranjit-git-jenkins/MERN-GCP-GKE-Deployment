@@ -1,0 +1,6 @@
+apiVersion: v2
+name: mern-gke
+description: MERN microservices deployment for GKE (coursework)
+type: application
+version: 0.1.0
+appVersion: "1.0"

@@ -1,0 +1,15 @@
+images:
+  registry: asia-south1-docker.pkg.dev/REPLACE_PROJECT/mern-images
+  tag: latest
+frontend:
+  replicas: 1
+  port: 80
+hello:
+  replicas: 1
+  port: 3001
+profile:
+  replicas: 1
+  port: 3002
+mongo:
+  enabled: true
+  image: mongo:7
